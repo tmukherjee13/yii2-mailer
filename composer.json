@@ -1,0 +1,21 @@
+{
+    "name": "tmukherjee13/yii2-mailer",
+    "description": "A custom modular mailer extension for Yii2",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension","custom-mail","modular"],
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Tarun Mukherjee",
+            "email": "tmukherjee13@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "~2.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "tmukherjee13\\mailer\\": "src"
+        }
+    }
+}
