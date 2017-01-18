@@ -28,4 +28,9 @@ Usage
 Once the extension is installed, simply use it in your code by  :
 
 ```php
-<?= \tmukherjee13\mailer\AutoloadExample::widget(); ?>```
+$emailReset = new \tmukherjee13\mailer\ResetPassword(array(
+            'user' => Yii::$app->user->identity,
+            'hash' => 'asdfas56ads1f1asdfdf',
+            /* other dynamic data for email */
+        ));
+        $emailReset->send();```
